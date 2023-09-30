@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(142, 138, 134);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#form{
+  background-color: thistle;  
+  display: inline-block;
+  width: auto;
+  height: 300px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+#form>h1{
+    padding: 15px 0;
+}
+
+#form>#check{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#check:focus{
+    outline: none;
+}
+
+.check{
+    margin: 15px 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+   
+}
+.check:hover{
+    color: royalblue;
+}
+
+#display{
+    color: brown;
+    padding: 15px;
+}
+
+.sendotp{
+    background-color: orchid;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.sendotp:hover{
+    background-color: rgb(179, 84, 176);
+    color: white;
+}
